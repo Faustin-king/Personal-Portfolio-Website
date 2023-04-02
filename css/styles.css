@@ -6,9 +6,19 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
 }
 
 a {
