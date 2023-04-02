@@ -50,3 +50,21 @@ ul {
   margin: 1.2rem;
   color: #fff;
 }
+
+/* Showcase  */
+#showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+#showecase p {
+  font-size: 3rem;
+  font-weight: 150;
+  font-style: italic;
+  background: var(--main-red);
+}
