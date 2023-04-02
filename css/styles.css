@@ -14,3 +14,29 @@ body {
 a {
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+/* Navabar */
+#navbar {
+  display: flex;
+  background: coral;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#navbar .list {
+  display: flex;
+  padding: 1.3rem;
+}
+
+#navbar .list li a {
+  margin: 1.2rem;
+  color: #fff;
+}
